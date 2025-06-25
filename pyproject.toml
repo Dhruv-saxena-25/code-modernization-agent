@@ -1,0 +1,18 @@
+[project]
+name = "LCM"
+version = "0.1.0"
+description = "LCM"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain>=0.3.25",
+    "langchain-community>=0.3.23",
+    "langchain-google-genai>=2.1.4",
+    "langchain-groq>=0.3.2",
+    "langgraph>=0.4.1",
+    "markdown>=3.8",
+    "python-dotenv>=1.1.0",
+    "fastapi",
+    "streamlit>=1.45.0",
+    "langchain-openai",
+]
